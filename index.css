@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Martian+Mono:wght@300&display=swap');
+/* background */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(154,197,244);
+}
+.sunny{
+    background: rgb(154,197,244);
+    background: linear-gradient(300deg, rgba(154,197,244,1) 0%, rgba(153,219,245,1) 56%, rgba(167,236,238,1) 100%);
+}
+
+.night{
+    background-color: rgb(60,9,108);
+    background: radial-gradient(circle, rgba(60,9,108,1) 0%, rgba(36,0,70,1) 100%);
+}
+
+
+.cloudy{
+    background: rgb(88,100,123);
+background: linear-gradient(144deg, rgba(88,100,123,1) 0%, rgba(76,98,140,1) 0%, rgba(51,65,92,1) 78%, rgba(51,65,92,1) 100%);
+}
+
+
+/* background */
+
+@media (min-width:1200px) {
+
+
+.holder{
+   
+   width: 700px;
+   height: 980px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   
+}
+.searchCity{
+    width: 441px;
+    height:37px;
+    background-color: rgba(154,197,244,1);
+    color: #252525;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-left: 15px;
+
+}
+/* night version */
+.searchCityNight{
+    width: 441px;
+    height:37px;
+    background-color: #ffdfb7;
+    color: #252525;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-left: 15px;
+
+}
+
+
+
+button{
+    width: 71px;
+    height: 37px;
+    color:#757575;
+    background-color: rgba(154,197,244,1);
+    border-style: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(139, 180, 224);
+}
+button:active{
+    position: relative;
+    top: 3px;
+}
+/* night version */
+.but{
+    width: 71px;
+    height: 37px;
+    color:#757575;
+    background-color: #ffdfb7;
+    border-style: none;
+    border-radius: 20px;
+}
+.but:hover{
+    background-color:#ecceaa ;
+}
+.but:active{
+    position: relative;
+    top: 3px;
+}
+
+
+.main{
+    width: 700px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.wheather-emote{
+     width: 599px;
+     height: 599px;
+   
+}
+.temp{
+    color: #252525;
+    font-family: 'Inter', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-size: 50px;
+
+}
+.location{
+    color: #252525;
+    font-family: 'Inter', sans-serif;
+font-family: 'Martian Mono', monospace;
+position: relative;
+top: -28px;
+
+}
+
+.tempnight{
+    color: #ffdfb7;
+    font-family: 'Inter', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-size: 50px;
+}
+
+.locationnight{
+    color: #ffdfb7;
+    font-family: 'Inter', sans-serif;
+font-family: 'Martian Mono', monospace;
+position: relative;
+top: -28px;
+
+}
+
+}
