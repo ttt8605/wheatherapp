@@ -254,7 +254,7 @@ location();
                 if(wheatherCode == 0,1){
                   const icon = document.querySelector('#sun');
                   icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
+                  icon.setAttribute('src','Untitled_Artwork.png')
                 }else if(wheatherCode == 2){
                   const icon = document.querySelector('#sun');
                   icon.removeAttribute('src')
